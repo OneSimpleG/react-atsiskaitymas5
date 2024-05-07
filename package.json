@@ -6,8 +6,8 @@
   "scripts": {
     "start": "node backend/server.js",
     "server": "nodemon backend/server.js",
-    "client": "npm run build --prefix frontend",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "client": "npm start --prefix frontend",
+    "dev": "nodemon backend/server.js && npm i --prefix frontend && npm run build --prefix frontend"
   },
   "author": "grantas",
   "license": "MIT",
