@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "server": "concurrently\"npm backend i\" \"nodemon backend/server.js\"",
-    "client": "concurrently\"npm frontend i\" \"npm start --prefix frontend\"",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix frontend",
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "grantas",
