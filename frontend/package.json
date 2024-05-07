@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && react-scripts build && echo 'frontend building'",
+    "build": "npm i && react-scripts build && echo 'frontend building' && npm run start",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "dev": "npm i && react-scripts start"
