@@ -19,10 +19,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm i && react-scripts build && echo 'frontend building' && npm run start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "dev": "npm i && react-scripts start"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
